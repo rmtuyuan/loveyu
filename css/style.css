@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#allcanvas{
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+canvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#canvasOne{
+    z-index: 1;
+}
+.btngroup{
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60px;
+}
+.btn {
+    display: block;
+    width: 180px;
+    font-size: 30px;
+    line-height: 50px;
+    background-color:#fff;
+    text-align: center;
+    border: 5px solid blue;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+.gameIntroduce{
+    border: 5px solid blue;
+    font-size: 20px;
+    position: absolute;
+    width: 440px;
+    z-index: 4;
+    border-radius: 20px;
+    background-color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60px;
+    display: none;
+}
+.gameIntroduce .body{
+    padding: 20px;
+    position: relative;
+}
+.gameIntroduce .body .close{
+    position: absolute;
+    top:0px;
+    right: 4px;
+    font-size: 24px;
+    width: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
